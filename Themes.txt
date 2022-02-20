@@ -1,0 +1,9 @@
+Puedes agregar las rutas en la direccion ./__main__/urls.py
+
+puedes crear las vistas en la seccion ./__app__/views.py
+y después agregar las direcciones de la app en el __main__ con la función includes
+
+para agregar templates tienes que especificar en ./__main__/settings.py donde se encuentra la carpeta de templates
+ya después los agregas en los controladores
+
+Template inheritance:
