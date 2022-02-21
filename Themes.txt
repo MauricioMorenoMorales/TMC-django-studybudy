@@ -1,3 +1,5 @@
+HAcer curso django con postgres
+
 Puedes agregar las rutas en la direccion ./__main__/urls.py
 
 puedes crear las vistas en la seccion ./__app__/views.py
@@ -7,3 +9,12 @@ para agregar templates tienes que especificar en ./__main__/settings.py donde se
 ya después los agregas en los controladores
 
 Template inheritance:
+
+puedes hacer migraciones con manage.py, simplemente haces $python3 manage.py (migrate | makemigrations)
+
+puedes entrar a la página de administradores en http://localhost:<PORT>/admin
+pero tienes que crear un usuario administrador
+	$ python3 manage.py createsuperuser
+
+Para agregar servicios a la pagina de admin ve a la página ./base/admin.py y agrega
+	admin.site.register(Room)
