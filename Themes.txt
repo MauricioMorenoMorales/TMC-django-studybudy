@@ -18,3 +18,6 @@ pero tienes que crear un usuario administrador
 
 Para agregar servicios a la pagina de admin ve a la página ./base/admin.py y agrega
 	admin.site.register(Room)
+
+Formularios, puedes autogenerar los formularios requeridos para hacer la app, solo crea un archivo forms
+y crea la logica, pasas los datos a travez del controlador y lo renderizas en el template
